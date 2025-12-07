@@ -1,0 +1,95 @@
+# -----------------------
+# Miscellaneous (雜項)
+# -----------------------
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# -----------------------
+# IntelliJ / Android Studio / VS Code
+# -----------------------
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+app.iml
+
+# -----------------------
+# Flutter / Dart (核心忽略)
+# -----------------------
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+# 注意：pubspec.lock 建議保留，以確保團隊依賴版本一致
+
+# -----------------------
+# Android (原生層)
+# -----------------------
+android/local.properties
+android/gradle/wrapper/gradle-wrapper.properties
+android/.gradle
+android/captures/
+android/gradlew
+android/gradlew.bat
+# Keystore (簽名金鑰 - 絕對不能上傳)
+*.jks
+*.keystore
+*.key
+android/key.properties
+
+# -----------------------
+# iOS (原生層)
+# -----------------------
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Generated.xcconfig
+ios/Flutter/app.flx
+ios/Flutter/app.zip
+ios/ServiceDefinitions.json
+ios/Runner/GeneratedPluginRegistrant.*
+ios/.generated/
+ios/Pods/
+ios/Podfile.lock
+
+# -----------------------
+# Firebase & Backend (最重要區塊)
+# -----------------------
+# Node.js 依賴包 (這很大且沒必要上傳)
+node_modules/
+functions/node_modules/
+
+# Firebase 本地模擬器產生的 log
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+
+# Firebase 本地環境變數 (通常包含開發用的 secrets)
+.runtimeconfig.json
+functions/.env
+.env
+
+# -----------------------
+# Security (資安保命符)
+# -----------------------
+# 這些是 Google 服務設定檔。
+# 如果是私人 Repo (Private Repo)，可以註解掉下面兩行以上傳方便協作。
+# 如果是公開 Repo (Public Repo)，絕對要忽略！
+# google-services.json
+# GoogleService-Info.plist
+
+# -----------------------
+# Exception (例外處理)
+# -----------------------
+# 雖然忽略了 build/，但我們需要保留 gitignore 本身
+!build/.gitkeep
