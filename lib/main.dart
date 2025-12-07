@@ -2,11 +2,20 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-// 引入你的首頁
+import 'package:firebase_core/firebase_core.dart';
 import 'presentation/pages/home_page.dart';
 
-void main() {
-  // 這裡一定要包一層 ProviderScope，不然 Riverpod 無法運作
+// ★ 1. 引入剛剛自動產生的設定檔
+import 'firebase_options.dart'; 
+
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  
+  // ★ 2. 告訴 Firebase 使用這個設定
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
+
   runApp(
     const ProviderScope(
       child: MyApp(),
@@ -21,12 +30,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: '滑滑衣櫥',
-      debugShowCheckedModeBanner: false, // 去掉右上角的 debug 標籤
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.pinkAccent),
         useMaterial3: true,
       ),
-      home: const HomePage(), // 設定首頁
+      home: const HomePage(),
     );
   }
 }

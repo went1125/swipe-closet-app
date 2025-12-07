@@ -24,6 +24,7 @@ app.iml
 # -----------------------
 # Flutter / Dart (核心忽略)
 # -----------------------
+lib/firebase_options.dart
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies

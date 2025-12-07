@@ -1,4 +1,16 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <queries>
+        <package android:name="com.shopee.tw" /> 
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="shopeetw" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="https" />
+        </intent>
+    </queries>
+    
     <application
         android:label="swipe_closet"
         android:name="${applicationName}"

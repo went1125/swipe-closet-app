@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "342033325232",
+    "project_id": "swipe-closet-wayne-v1",
+    "storage_bucket": "swipe-closet-wayne-v1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:342033325232:android:4a0a68892df4cd5fc5ef75",
+        "android_client_info": {
+          "package_name": "com.example.swipe_closet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXu8YMaRNCDUcjW7C5vXu-ZgUv4H_e3bQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

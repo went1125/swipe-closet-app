@@ -1,16 +1,1 @@
-{
-  "functions": [
-    {
-      "source": "functions",
-      "codebase": "default",
-      "disallowLegacyRuntimeConfig": true,
-      "ignore": [
-        "node_modules",
-        ".git",
-        "firebase-debug.log",
-        "firebase-debug.*.log",
-        "*.local"
-      ]
-    }
-  ]
-}
+{"functions":[{"source":"functions","codebase":"default","disallowLegacyRuntimeConfig":true,"ignore":["node_modules",".git","firebase-debug.log","firebase-debug.*.log","*.local"]}],"flutter":{"platforms":{"android":{"default":{"projectId":"swipe-closet-wayne-v1","appId":"1:342033325232:android:4a0a68892df4cd5fc5ef75","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"swipe-closet-wayne-v1","configurations":{"android":"1:342033325232:android:4a0a68892df4cd5fc5ef75","ios":"1:342033325232:ios:efe96fcf3224f84ec5ef75","macos":"1:342033325232:ios:efe96fcf3224f84ec5ef75","web":"1:342033325232:web:656c0342a8bcc91bc5ef75","windows":"1:342033325232:web:15218d5dfb8d62f0c5ef75"}}}}}}
