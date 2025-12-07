@@ -1,16 +1,39 @@
-# swipe_closet
+# 🛍️ Swipe Closet (滑滑衣櫥) - Next Gen Fashion Discovery App
 
-A new Flutter project.
+![App Hero Image](https://your-image-url.com/banner.png)
+*(Concept Art: Swipe, Match, and Shop in seconds)*
 
-## Getting Started
+### 🚀 Project Overview
+**Swipe Closet** is a Tinder-style fashion discovery platform designed for **Gen Z shoppers**. We solve the "Choice Paralysis" problem in traditional e-commerce by transforming the shopping experience into an addictive, gamified interaction.
 
-This project is a starting point for a Flutter application.
+Instead of actively searching for keywords, users simply **swipe right to like** and **left to pass**, building a personalized wishlist that drives high-intent traffic directly to Shopee.
 
-A few resources to get you started if this is your first Flutter project:
+### 💎 Key Features (Why it works?)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* **⚡ Frictionless UI (極速滑動體驗)**
+    * Built with **Flutter** for 60fps smooth performance.
+    * Pre-fetching technology ensures zero latency image loading.
+* **🎯 AI-Driven Personalization (演算法推薦)**
+    * Every swipe trains our backend engine to understand user preferences (Style, Price, Category).
+    * Pushing the right product to the right user at the right time.
+* **🔗 Seamless Shopee Integration (無縫導購)**
+    * Direct Deep-Link integration with Shopee App.
+    * Higher conversion rates compared to traditional browsing.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 📱 User Journey
+1.  **Discover**: User opens the app during spare time (killing time).
+2.  **Interact**: Swipes 50+ items in under a minute (High Engagement).
+3.  **Collection**: Saved items are organized in the "Closet".
+4.  **Conversion**: One-tap redirection to Shopee for checkout.
+
+### 🛠️ Tech Stack
+* **Frontend**: Flutter (Dart), Riverpod, Flutter Card Swiper
+* **Backend**: Firebase Cloud Functions (Node.js)
+* **Data**: Shopee Open API (Affiliate)
+* **Analytics**: Firebase Analytics & Crashlytics
+
+### 📈 Business Value
+This project is designed to act as a **high-quality traffic funnel** for Shopee sellers. By engaging users who are browsing for inspiration rather than searching for specific items, we capture the **"Impulse Buying" (衝動購物)** market segment effectively.
+
+---
+*Status: MVP Development Phase. Requesting Shopee Affiliate API access for integration testing.*
