@@ -1,6 +1,6 @@
 # 🛍️ Swipe Closet (滑滑衣櫥) - Next Gen Fashion Discovery App
 
-![App Hero Image](https://your-image-url.com/banner.png)
+![App Hero Image](https://github.com/went1125/swipe-closet-app/blob/main/assets/demo.png)
 *(Concept Art: Swipe, Match, and Shop in seconds)*
 
 ### 🚀 Project Overview
